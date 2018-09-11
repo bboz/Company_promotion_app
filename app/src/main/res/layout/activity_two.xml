@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityTwo"
+    android:weightSum="10"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/hizmetler2"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Hizmetler"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Yeniliğe açık şirket kültürü, çağdaş yöntemleri kullanan küresel şirket anlayışı ve teknolojik donanımı ve insan kaynağına verdiği önem ile Çuhadaroğlu, ana başlıklar altında topladığı hizmetleri ile sektöre yardımcı olmayı, müşteri memnuniyetini esas almaktadır.\n\n
+
+ Çuhadaroğlu'nun sektöre sunduğu hizmetler arasında;\n\n
+
+● Mühendislik / Danışmanlık\n
+ ● Projelendirme, taahhüt,\n
+ ● İmalat, montaj\n
+ ● Tasarım süreçlerine katkı\n
+ ● Detay çözümleri kontrol ve onayı,\n
+ ● Saha kontrolleri,\n
+ ● Değer mühendisliği yer almaktadır.\n\n
+ Çuhadaroğlu salt ürün tanıtımı ve satışından öte, iş ortaklarına sunduğu projelendirme, taahhüt, danışmanlık destekleri ile güvenilir bir çözüm merkezidir. Çuhadaroğlu teknik uzmanları proje çalışmaları kapsamında bir dizi hizmeti proje katılımcılarına sunmaktadır.\n\n
+
+ Standart veya şartnamelerde tanımlanan ürünlere göre öneriler,\n\n
+
+● Proje koşullarının değerlendirilerek en optimum çözümler sunulması,\n
+ ● Proje bazında noktasal detay çözümlerine destek,\n
+ ● Proje malzeme analizleri ve değer mühendisliği çalışmaları ile optimum bütçenin temin edilmesi\n
+ ● Fiili uygulamanın ilgili detay ve prensiplerine uygunluğunun saha kontrolleri ile denetlenmesi,\n
+ ● Projelerde montaj dahil hizmet verilmesi,\n\n
+ Çuhadaroğlu uzman ekiplerince sunulan hizmetler arasında yer almaktadır.\n"
+                android:textSize="16dp"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="3dp"
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#c0c0c0"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityFour"
+    android:weightSum="10"
+    >
+
+    <RelativeLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vizyonmisyon2"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Misyon"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Çuhadaroğlu Metal, mimari ve endüstriyel profil sistemleri tasarım ve üretiminde müşterilerinin vazgeçilmez çözüm ortağı olmayı amaçlar. Türkiye ve bağlantılı hayati coğrafyamızda öncü marka olarak geniş ürün yelpazesi ve teknik hizmet yeteneği ile müşterilerine kapsamlı destek sunar."
+                android:textSize="16dp"
+                android:layout_margin="10dp"
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#c0c0c0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Vizyon"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Firmamız ulusal ve uluslararası pazarlarda etkinliğini arttırmak amacıyla yaratıcılık ve yeniliğe değer vererek araştırmak geliştirmeye sürekli yatırım yapmak. Müşterilerinin öncelikle tercih ettiği, rakiplerinin saygı duyduğu, paydaşlarına kazanç sağlayan, güvenilir kuruluş olmak."
+                android:textSize="16dp"
+                android:layout_margin="10dp"
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#c0c0c0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Değerlerimiz"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*Öncü olmak\n*Kaliteden asla ödün vermemek\n*Müşteri odaklılık\n*Takım ruhunu benimsemek\n*Sürekli gelişmek ve iyileşmek\n"
+                android:textSize="16dp"
+                android:layout_margin="10dp"
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#c0c0c0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Kalite Politikamız"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Çuhadaroğlu Metal Sanayi ve Pazarlama A.Ş; takım ruhuna önem veren heyecanlı ve güler yüzlü ekibiyle yenilikçi ve çağdaş bir anlayış içinde hareket ederek hızlı, doğru ve güvenilir hizmet vermek doğrultusunda;\n\n      *Sürekli gelişimi ilke edinen, firmaya ve ürünlerin kalitesine güven sayesinde herkesin iş birliği yapmayı tercih edeceği bir kurum olmayı.\n\n      *Müşterilerine kaliteli ürün ve hizmet verebilmek için etkin kalite yönetim sistemi kurmayı, uygulamayı ve sürekli gelişmesini sağlamayı.\n\n      *Müşterilerin ürün kalitesi ve performans beklentilerini sürekli karşılayarak memnuniyetlerimin arttırmayı.\n\n      *Hedeflerin gerçekleştirilmesi sürecinde işçi sağlığı ve iş güvenliği ile ilgili tüm çevresel ve yasal gereklere uymayı amaçlar.\n\n      Hedeflerin gerçekleştirilmesinde başarının anahtarının çalışanlarda olduğu bilinciyle huzurlu, katılımcı ve gelişime açık çalışma ortamını sürekli kılmak için çalışır."
+                android:textSize="16dp"
+                android:layout_margin="10dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
